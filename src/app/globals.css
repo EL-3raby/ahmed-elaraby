@@ -1,26 +1,99 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Default Paper Theme */
+  --bg: #F4F3EF;
+  --fg: #111111;
+  --muted: #666560;
+  --card: rgba(17, 17, 17, 0.03);
+  --border: rgba(17, 17, 17, 0.12);
+  --accent: #FF4D00;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+[data-theme="paper"] {
+  --bg: #F4F3EF;
+  --fg: #111111;
+  --muted: #666560;
+  --card: rgba(17, 17, 17, 0.03);
+  --border: rgba(17, 17, 17, 0.12);
+  --accent: #FF4D00;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+[data-theme="obsidian"] {
+  --bg: #0B0B0C;
+  --fg: #F4F3EF;
+  --muted: #8E8D8A;
+  --card: rgba(244, 243, 239, 0.04);
+  --border: rgba(244, 243, 239, 0.12);
+  --accent: #FF4D00;
+}
+
+[data-theme="stone"] {
+  --bg: #E6E4DD;
+  --fg: #111111;
+  --muted: #575652;
+  --card: rgba(17, 17, 17, 0.04);
+  --border: rgba(17, 17, 17, 0.15);
+  --accent: #111111;
+}
+
+@theme {
+  --font-display: var(--font-display), sans-serif;
+  --font-serif: var(--font-serif), Georgia, serif;
+  --font-sans: var(--font-sans), sans-serif;
+  --font-mono: var(--font-mono), monospace;
+  --font-inter: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-anton: var(--font-anton), Impact, sans-serif;
+
+  --color-bg: var(--bg);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-background: var(--bg);
+  --color-foreground: var(--fg);
+  --color-muted-foreground: var(--muted);
+}
+
+html {
+  background-color: var(--bg);
+  color: var(--fg);
+  overflow-x: clip;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: clip;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--accent);
+  color: #F4F3EF;
+}
+
+/* Lenis Recommended CSS */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
 }

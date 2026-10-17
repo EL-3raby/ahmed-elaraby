@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 192" width="1024" height="192">
+  <defs>
+    <linearGradient id="bandGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#121214" />
+      <stop offset="50%" stop-color="#18181C" />
+      <stop offset="100%" stop-color="#121214" />
+    </linearGradient>
+  </defs>
+
+  <!-- Strap Background -->
+  <rect width="1024" height="192" fill="url(#bandGrad)" />
+
+  <!-- Strap Stitch Lines -->
+  <line x1="0" y1="18" x2="1024" y2="18" stroke="#FF4D00" stroke-width="4" stroke-dasharray="12 8" />
+  <line x1="0" y1="174" x2="1024" y2="174" stroke="#FF4D00" stroke-width="4" stroke-dasharray="12 8" />
+
+  <!-- Repeating Monospace Strap Typography -->
+  <g fill="#FFFFFF" font-family="'JetBrains Mono', monospace" font-size="34" font-weight="800" letter-spacing="4">
+    <text x="30" y="110">AHMED ELARABY</text>
+    <circle cx="390" cy="98" r="8" fill="#FF4D00" />
+    <text x="430" y="110" fill="#FF4D00">ARCHITECT</text>
+    <circle cx="710" cy="98" r="8" fill="#FFFFFF" />
+    <text x="750" y="110">SYSTEMS</text>
+  </g>
+</svg>

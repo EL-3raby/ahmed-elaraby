@@ -1,0 +1,1008 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - main [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - paragraph [ref=e18]:
+              - generic [ref=e19]:
+                - generic [ref=e20]: W
+                - generic [ref=e21]: e
+              - generic [ref=e22]:
+                - generic [ref=e23]: b
+                - generic [ref=e24]: u
+                - generic [ref=e25]: i
+                - generic [ref=e26]: l
+                - generic [ref=e27]: d
+              - generic [ref=e28]:
+                - generic [ref=e29]: b
+                - generic [ref=e30]: r
+                - generic [ref=e31]: a
+                - generic [ref=e32]: "n"
+                - generic [ref=e33]: d
+                - generic [ref=e34]: s
+                - generic [ref=e35]: ","
+              - generic [ref=e36]:
+                - generic [ref=e37]: w
+                - generic [ref=e38]: e
+                - generic [ref=e39]: b
+                - generic [ref=e40]: s
+                - generic [ref=e41]: i
+                - generic [ref=e42]: t
+                - generic [ref=e43]: e
+                - generic [ref=e44]: s
+                - generic [ref=e45]: ","
+              - generic [ref=e46]:
+                - generic [ref=e47]: a
+                - generic [ref=e48]: "n"
+                - generic [ref=e49]: d
+              - generic [ref=e50]:
+                - generic [ref=e51]: d
+                - generic [ref=e52]: i
+                - generic [ref=e53]: g
+                - generic [ref=e54]: i
+                - generic [ref=e55]: t
+                - generic [ref=e56]: a
+                - generic [ref=e57]: l
+              - generic [ref=e58]:
+                - generic [ref=e59]: e
+                - generic [ref=e60]: x
+                - generic [ref=e61]: p
+                - generic [ref=e62]: e
+                - generic [ref=e63]: r
+                - generic [ref=e64]: i
+                - generic [ref=e65]: e
+                - generic [ref=e66]: "n"
+                - generic [ref=e67]: c
+                - generic [ref=e68]: e
+                - generic [ref=e69]: s
+              - generic [ref=e70]:
+                - generic [ref=e71]:
+                  - generic [ref=e72]: w
+                  - generic [ref=e73]: i
+                  - generic [ref=e74]: t
+                  - generic [ref=e75]: h
+                - generic [ref=e76]:
+                  - generic [ref=e77]: i
+                  - generic [ref=e78]: "n"
+                  - generic [ref=e79]: t
+                  - generic [ref=e80]: e
+                  - generic [ref=e81]: "n"
+                  - generic [ref=e82]: t
+                  - generic [ref=e83]: i
+                  - generic [ref=e84]: o
+                  - generic [ref=e85]: "n"
+                  - generic [ref=e86]: ","
+                - generic [ref=e87]:
+                  - generic [ref=e88]: c
+                  - generic [ref=e89]: l
+                  - generic [ref=e90]: a
+                  - generic [ref=e91]: r
+                  - generic [ref=e92]: i
+                  - generic [ref=e93]: t
+                  - generic [ref=e94]: "y"
+                - generic [ref=e95]:
+                  - generic [ref=e96]: a
+                  - generic [ref=e97]: "n"
+                  - generic [ref=e98]: d
+                - generic [ref=e99]:
+                  - generic [ref=e100]: c
+                  - generic [ref=e101]: a
+                  - generic [ref=e102]: r
+                  - generic [ref=e103]: e
+                  - generic [ref=e104]: .
+            - generic [ref=e105]:
+              - paragraph [ref=e107]: "trusted by:"
+              - list [ref=e110]:
+                - listitem [aria-hidden] [ref=e111]
+                - listitem [aria-hidden] [ref=e114]
+                - listitem [aria-hidden] [ref=e117]
+                - listitem [aria-hidden] [ref=e120]
+                - listitem [aria-hidden] [ref=e123]
+          - button [ref=e129] [cursor=pointer]:
+            - link [ref=e130]:
+              - /url: ./contact
+              - generic [ref=e132]:
+                - heading "START A PROJECT" [level=4] [ref=e135]
+                - heading "START A PROJECT" [level=4] [ref=e139]
+        - heading "Beyond Visuals. Built with Vision." [level=1] [ref=e142]:
+          - generic [ref=e143]: Beyond
+          - generic [ref=e144]: Visuals.
+          - generic [ref=e145]:
+            - generic [ref=e146]: Built
+            - generic [ref=e147]: with
+            - generic [ref=e148]: Vision.
+      - generic [ref=e151]:
+        - paragraph [ref=e153]: (ABOUT)
+        - heading "We combines years of web design and branding expertise to craft meaningful, story-driven experiences." [level=2] [ref=e157]:
+          - generic [ref=e158]: We
+          - generic [ref=e159]: combines
+          - generic [ref=e160]: years
+          - generic [ref=e161]: of
+          - generic [ref=e162]: web
+          - generic [ref=e163]: design
+          - generic [ref=e164]: and
+          - generic [ref=e165]: branding
+          - generic [ref=e166]: expertise
+          - generic [ref=e167]: to
+          - generic [ref=e168]: craft
+          - generic [ref=e169]: meaningful,
+          - generic [ref=e170]: story-driven
+          - generic [ref=e171]: experiences.
+      - generic [ref=e174]:
+        - generic [ref=e176]:
+          - heading "L a t e s t w o r k" [level=2] [ref=e178]:
+            - generic [ref=e179]:
+              - generic [ref=e180]: L
+              - generic [ref=e181]: a
+              - generic [ref=e182]: t
+              - generic [ref=e183]: e
+              - generic [ref=e184]: s
+              - generic [ref=e185]: t
+            - generic [ref=e186]:
+              - generic [ref=e187]: w
+              - generic [ref=e188]: o
+              - generic [ref=e189]: r
+              - generic [ref=e190]: k
+          - paragraph [ref=e192]: (04)
+        - generic [ref=e193]:
+          - link "Arjuna Personal Portfolio Website for talented design engineer" [ref=e194] [cursor=pointer]:
+            - /url: ./works/arjuna
+            - generic [ref=e201]:
+              - heading "Arjuna" [level=3] [ref=e203]
+              - paragraph [ref=e205]: Personal Portfolio Website for talented design engineer
+          - link "Bima Website and branding for AI Automation Company" [ref=e206] [cursor=pointer]:
+            - /url: ./works/bima
+            - generic [ref=e213]:
+              - heading "Bima" [level=3] [ref=e215]
+              - paragraph [ref=e217]: Website and branding for AI Automation Company
+          - link "Mandala Website and branding for Design Agency" [ref=e218] [cursor=pointer]:
+            - /url: ./works/mandala
+            - generic [ref=e225]:
+              - heading "Mandala" [level=3] [ref=e227]
+              - paragraph [ref=e229]: Website and branding for Design Agency
+        - button [ref=e234] [cursor=pointer]:
+          - link [ref=e235]:
+            - /url: ./works
+            - generic [ref=e237]:
+              - paragraph [ref=e240]: MORE PROJECTS
+              - paragraph [ref=e243]: MORE PROJECTS
+      - generic [ref=e247]:
+        - generic [ref=e248]:
+          - generic [ref=e249]:
+            - paragraph [ref=e251]: (WHY US)
+            - heading "N U M B E R S D O N ' T L I E" [level=2] [ref=e254]:
+              - generic [ref=e255]:
+                - generic [ref=e256]: "N"
+                - generic [ref=e257]: U
+                - generic [ref=e258]: M
+                - generic [ref=e259]: B
+                - generic [ref=e260]: E
+                - generic [ref=e261]: R
+                - generic [ref=e262]: S
+              - generic [ref=e263]:
+                - generic [ref=e264]: D
+                - generic [ref=e265]: O
+                - generic [ref=e266]: "N"
+                - generic [ref=e267]: "'"
+                - generic [ref=e268]: T
+              - generic [ref=e269]:
+                - generic [ref=e270]: L
+                - generic [ref=e271]: I
+                - generic [ref=e272]: E
+          - paragraph [ref=e274]:
+            - generic [ref=e275]:
+              - generic [ref=e276]: W
+              - generic [ref=e277]: i
+              - generic [ref=e278]: t
+              - generic [ref=e279]: h
+            - generic [ref=e280]: a
+            - generic [ref=e282]:
+              - generic [ref=e283]: d
+              - generic [ref=e284]: e
+              - generic [ref=e285]: c
+              - generic [ref=e286]: a
+              - generic [ref=e287]: d
+              - generic [ref=e288]: e
+            - generic [ref=e289]:
+              - generic [ref=e290]: o
+              - generic [ref=e291]: f
+            - generic [ref=e292]:
+              - generic [ref=e293]: e
+              - generic [ref=e294]: x
+              - generic [ref=e295]: p
+              - generic [ref=e296]: e
+              - generic [ref=e297]: r
+              - generic [ref=e298]: t
+              - generic [ref=e299]: i
+              - generic [ref=e300]: s
+              - generic [ref=e301]: e
+              - generic [ref=e302]: ","
+            - generic [ref=e303]:
+              - generic [ref=e304]: W
+              - generic [ref=e305]: e
+            - generic [ref=e306]:
+              - generic [ref=e307]: c
+              - generic [ref=e308]: r
+              - generic [ref=e309]: a
+              - generic [ref=e310]: f
+              - generic [ref=e311]: t
+              - generic [ref=e312]: s
+            - generic [ref=e313]:
+              - generic [ref=e314]: b
+              - generic [ref=e315]: o
+              - generic [ref=e316]: l
+              - generic [ref=e317]: d
+            - generic [ref=e318]:
+              - generic [ref=e319]: b
+              - generic [ref=e320]: r
+              - generic [ref=e321]: a
+              - generic [ref=e322]: "n"
+              - generic [ref=e323]: d
+              - generic [ref=e324]: s
+            - generic [ref=e325]:
+              - generic [ref=e326]: a
+              - generic [ref=e327]: "n"
+              - generic [ref=e328]: d
+            - generic [ref=e329]:
+              - generic [ref=e330]: h
+              - generic [ref=e331]: i
+              - generic [ref=e332]: g
+              - generic [ref=e333]: h
+              - generic [ref=e334]: "-"
+              - generic [ref=e335]: i
+              - generic [ref=e336]: m
+              - generic [ref=e337]: p
+              - generic [ref=e338]: a
+              - generic [ref=e339]: c
+              - generic [ref=e340]: t
+            - generic [ref=e341]:
+              - generic [ref=e342]: d
+              - generic [ref=e343]: i
+              - generic [ref=e344]: g
+              - generic [ref=e345]: i
+              - generic [ref=e346]: t
+              - generic [ref=e347]: a
+              - generic [ref=e348]: l
+            - generic [ref=e349]:
+              - generic [ref=e350]: e
+              - generic [ref=e351]: x
+              - generic [ref=e352]: p
+              - generic [ref=e353]: e
+              - generic [ref=e354]: r
+              - generic [ref=e355]: i
+              - generic [ref=e356]: e
+              - generic [ref=e357]: "n"
+              - generic [ref=e358]: c
+              - generic [ref=e359]: e
+            - generic [ref=e360]:
+              - generic [ref=e361]: t
+              - generic [ref=e362]: h
+              - generic [ref=e363]: a
+              - generic [ref=e364]: t
+            - generic [ref=e365]:
+              - generic [ref=e366]: g
+              - generic [ref=e367]: e
+              - generic [ref=e368]: t
+            - generic [ref=e369]:
+              - generic [ref=e370]: r
+              - generic [ref=e371]: e
+              - generic [ref=e372]: s
+              - generic [ref=e373]: u
+              - generic [ref=e374]: l
+              - generic [ref=e375]: t
+              - generic [ref=e376]: s
+              - generic [ref=e377]: .
+        - generic [ref=e378]:
+          - generic [ref=e396]:
+            - generic [ref=e398]:
+              - generic [ref=e399]: "220"
+              - generic [ref=e400]: +
+            - paragraph [ref=e402]: Successful projects completed
+          - generic [ref=e420]:
+            - generic [ref=e422]:
+              - generic [ref=e423]: "0"
+              - generic [ref=e424]: +
+            - paragraph [ref=e426]: Years of experience in creative industry
+          - generic [ref=e444]:
+            - generic [ref=e446]:
+              - generic [ref=e447]: "70"
+              - generic [ref=e448]: "%"
+            - paragraph [ref=e450]: Customer satisfaction rate
+          - generic [ref=e468]:
+            - generic [ref=e470]:
+              - generic [ref=e471]: "0"
+              - generic [ref=e472]: M
+            - paragraph [ref=e474]: In Client revenue growth
+      - generic [ref=e478]:
+        - generic [ref=e479]:
+          - paragraph [ref=e481]: “
+          - paragraph [ref=e483]:
+            - text: Working with Nakula felt personal.
+            - code [ref=e484]: The process was smooth, the design was stunning, and everything had meaning.
+        - generic [ref=e492]:
+          - paragraph [ref=e494]: Dianna Sulastri
+          - paragraph [ref=e496]: Founder at Mandala
+      - generic [ref=e501]:
+        - generic [ref=e502]:
+          - heading "H O W W E C A N H E L P" [level=2] [ref=e504]:
+            - generic [ref=e505]:
+              - generic [ref=e506]: H
+              - generic [ref=e507]: O
+              - generic [ref=e508]: W
+            - generic [ref=e509]:
+              - generic [ref=e510]: W
+              - generic [ref=e511]: E
+            - generic [ref=e512]:
+              - generic [ref=e513]: C
+              - generic [ref=e514]: A
+              - generic [ref=e515]: "N"
+            - generic [ref=e516]:
+              - generic [ref=e517]: H
+              - generic [ref=e518]: E
+              - generic [ref=e519]: L
+              - generic [ref=e520]: P
+          - paragraph [ref=e522]: (SERVICES)
+        - generic [ref=e531]:
+          - generic [ref=e537] [cursor=pointer]:
+            - generic [ref=e538]:
+              - heading "01" [level=3] [ref=e540]
+              - heading "." [level=3] [ref=e542]
+            - generic [ref=e544]:
+              - generic [ref=e545]:
+                - generic [ref=e546]:
+                  - paragraph [ref=e549]: Web Design & Development
+                  - paragraph [ref=e554]: Logos, colors, type, your brand, fully alive.
+                - generic [ref=e555]:
+                  - paragraph [ref=e559]: Responsive Design
+                  - paragraph [ref=e563]: Interaction Design
+                  - paragraph [ref=e567]: CMS Integration
+                  - paragraph [ref=e571]: SEO Optimization
+              - heading "Web Design & Development" [level=3] [ref=e574]
+          - generic [ref=e586] [cursor=pointer]:
+            - generic [ref=e587]:
+              - heading "02" [level=3] [ref=e589]
+              - heading "." [level=3] [ref=e591]
+            - generic [ref=e593]:
+              - generic [ref=e594]:
+                - generic [ref=e595]:
+                  - paragraph [ref=e598]: Branding
+                  - paragraph [ref=e603]: Crafting visual identities that feel clear, timeless, and true to your brand.
+                - generic [ref=e604]:
+                  - paragraph [ref=e608]: Logo Design
+                  - paragraph [ref=e612]: Color System
+                  - paragraph [ref=e616]: Typography
+                  - paragraph [ref=e620]: Brand Direction
+              - heading "Branding" [level=3] [ref=e623]
+          - generic [ref=e635] [cursor=pointer]:
+            - generic [ref=e636]:
+              - heading "03" [level=3] [ref=e638]
+              - heading "." [level=3] [ref=e640]
+            - generic [ref=e642]:
+              - generic [ref=e643]:
+                - generic [ref=e644]:
+                  - paragraph [ref=e647]: Social Media
+                  - paragraph [ref=e652]: Branded templates and content systems to help you stay consistent and scroll-worthy.
+                - generic [ref=e653]:
+                  - paragraph [ref=e657]: Instagram Design
+                  - paragraph [ref=e661]: Story Kits
+                  - paragraph [ref=e665]: Content Templates
+                  - paragraph [ref=e669]: Visual Consistency
+              - heading "Social Media" [level=3] [ref=e672]
+          - generic [ref=e684] [cursor=pointer]:
+            - generic [ref=e685]:
+              - heading "04" [level=3] [ref=e687]
+              - heading "." [level=3] [ref=e689]
+            - generic [ref=e691]:
+              - generic [ref=e692]:
+                - generic [ref=e693]:
+                  - paragraph [ref=e696]: Motion Design
+                  - paragraph [ref=e701]: Thoughtful animations that add rhythm, clarity, and life to your interface.
+                - generic [ref=e702]:
+                  - paragraph [ref=e706]: Micro-interactions
+                  - paragraph [ref=e710]: Scroll Effects
+                  - paragraph [ref=e714]: Hover States
+                  - paragraph [ref=e718]: Framer Motion
+              - heading "Motion Design" [level=3] [ref=e721]
+      - generic [ref=e732]:
+        - generic [ref=e733]:
+          - paragraph [ref=e735]: (PROCESS)
+          - heading "H O W W E W O R K" [level=2] [ref=e737]:
+            - generic [ref=e738]:
+              - generic [ref=e739]: H
+              - generic [ref=e740]: O
+              - generic [ref=e741]: W
+            - generic [ref=e742]:
+              - generic [ref=e743]: W
+              - generic [ref=e744]: E
+            - generic [ref=e745]:
+              - generic [ref=e746]: W
+              - generic [ref=e747]: O
+              - generic [ref=e748]: R
+              - generic [ref=e749]: K
+        - generic [ref=e750]:
+          - generic [ref=e752]:
+            - generic [ref=e753]:
+              - heading "STEP 1" [level=3] [ref=e755]
+              - heading "." [level=3] [ref=e757]
+            - generic [ref=e758]:
+              - paragraph [ref=e760]: Discovery Phase
+              - paragraph [ref=e762]: Understanding your, goals, pain points, audience, and what sets you apart.
+          - generic [ref=e764]:
+            - generic [ref=e765]:
+              - heading "STEP 2" [level=3] [ref=e767]
+              - heading "." [level=3] [ref=e769]
+            - generic [ref=e770]:
+              - paragraph [ref=e772]: Project Kickoff
+              - paragraph [ref=e774]: Setting up projects, aligning on scope and milestones, and diving into the work.
+          - generic [ref=e776]:
+            - generic [ref=e777]:
+              - heading "STEP 3" [level=3] [ref=e779]
+              - heading "." [level=3] [ref=e781]
+            - generic [ref=e782]:
+              - paragraph [ref=e784]: Receive & Refine
+              - paragraph [ref=e786]: Sharing initial designs, gathering feedback, and fine-tuning together.
+          - generic [ref=e788]:
+            - generic [ref=e789]:
+              - heading "STEP 4" [level=3] [ref=e791]
+              - heading "." [level=3] [ref=e793]
+            - generic [ref=e794]:
+              - paragraph [ref=e796]: Continue & Grow
+              - paragraph [ref=e798]: Launching with confidence and supporting your next extraordinary moves.
+      - generic [ref=e800]:
+        - generic [ref=e801]:
+          - generic [ref=e802]:
+            - generic [ref=e809]:
+              - paragraph [ref=e811]: "4.9"
+              - paragraph [ref=e814]: /5
+            - paragraph [ref=e816]: 300+ Reviews on Clutch
+          - generic [ref=e817]:
+            - heading "(TESTIMONIALS)" [level=2] [ref=e819]
+            - heading "W e d e l i v e r d a t a - d r i v e n a n d r e s u l t - f o c u s e d d e l i v e r a b l e s . H e a r w h a t t h e y s a y a b o u t u s ." [level=3] [ref=e821]:
+              - generic [ref=e822]:
+                - generic [ref=e823]: W
+                - generic [ref=e824]: e
+              - generic [ref=e825]:
+                - generic [ref=e826]: d
+                - generic [ref=e827]: e
+                - generic [ref=e828]: l
+                - generic [ref=e829]: i
+                - generic [ref=e830]: v
+                - generic [ref=e831]: e
+                - generic [ref=e832]: r
+              - generic [ref=e833]:
+                - generic [ref=e834]: d
+                - generic [ref=e835]: a
+                - generic [ref=e836]: t
+                - generic [ref=e837]: a
+                - generic [ref=e838]: "-"
+                - generic [ref=e839]: d
+                - generic [ref=e840]: r
+                - generic [ref=e841]: i
+                - generic [ref=e842]: v
+                - generic [ref=e843]: e
+                - generic [ref=e844]: "n"
+              - generic [ref=e845]:
+                - generic [ref=e846]: a
+                - generic [ref=e847]: "n"
+                - generic [ref=e848]: d
+              - generic [ref=e849]:
+                - generic [ref=e850]: r
+                - generic [ref=e851]: e
+                - generic [ref=e852]: s
+                - generic [ref=e853]: u
+                - generic [ref=e854]: l
+                - generic [ref=e855]: t
+                - generic [ref=e856]: "-"
+                - generic [ref=e857]: f
+                - generic [ref=e858]: o
+                - generic [ref=e859]: c
+                - generic [ref=e860]: u
+                - generic [ref=e861]: s
+                - generic [ref=e862]: e
+                - generic [ref=e863]: d
+              - generic [ref=e864]:
+                - generic [ref=e865]: d
+                - generic [ref=e866]: e
+                - generic [ref=e867]: l
+                - generic [ref=e868]: i
+                - generic [ref=e869]: v
+                - generic [ref=e870]: e
+                - generic [ref=e871]: r
+                - generic [ref=e872]: a
+                - generic [ref=e873]: b
+                - generic [ref=e874]: l
+                - generic [ref=e875]: e
+                - generic [ref=e876]: s
+                - generic [ref=e877]: .
+              - generic [ref=e878]:
+                - generic [ref=e879]: H
+                - generic [ref=e880]: e
+                - generic [ref=e881]: a
+                - generic [ref=e882]: r
+              - generic [ref=e883]:
+                - generic [ref=e884]: w
+                - generic [ref=e885]: h
+                - generic [ref=e886]: a
+                - generic [ref=e887]: t
+              - generic [ref=e888]:
+                - generic [ref=e889]: t
+                - generic [ref=e890]: h
+                - generic [ref=e891]: e
+                - generic [ref=e892]: "y"
+              - generic [ref=e893]:
+                - generic [ref=e894]: s
+                - generic [ref=e895]: a
+                - generic [ref=e896]: "y"
+              - generic [ref=e897]:
+                - generic [ref=e898]: a
+                - generic [ref=e899]: b
+                - generic [ref=e900]: o
+                - generic [ref=e901]: u
+                - generic [ref=e902]: t
+              - generic [ref=e903]:
+                - generic [ref=e904]: u
+                - generic [ref=e905]: s
+                - generic [ref=e906]: .
+        - generic [ref=e907]:
+          - generic [ref=e911]:
+            - generic [ref=e915]:
+              - heading "Mario Baskoro" [level=4] [ref=e917]
+              - paragraph [ref=e919]: CTO of Arjuna
+            - generic [ref=e920]:
+              - paragraph [ref=e922]: Our socials used to feel scattered and inconsistent. Now, everything is on-brand, engaging, and performing better.
+              - heading "\"" [level=3] [ref=e924]
+          - generic [ref=e928]:
+            - generic [ref=e932]:
+              - heading "Evelyn Widjaja" [level=4] [ref=e934]
+              - paragraph [ref=e936]: Marketing Lead at Bima
+            - generic [ref=e937]:
+              - paragraph [ref=e939]: From branding to the website to social—everything was cohesive, strategic, and done with serious care.
+              - heading "\"" [level=3] [ref=e941]
+          - generic [ref=e945]:
+            - generic [ref=e949]:
+              - heading "Karina Wulandari" [level=4] [ref=e951]
+              - paragraph [ref=e953]: Founder at Batavia
+            - generic [ref=e954]:
+              - paragraph [ref=e956]: Working with them felt like having an in-house team that just gets it.
+              - heading "\"" [level=3] [ref=e958]
+      - generic [ref=e962]:
+        - generic [ref=e964]:
+          - generic [ref=e965]:
+            - heading "P R I C I N G" [level=2] [ref=e967]:
+              - generic [ref=e968]:
+                - generic [ref=e969]: P
+                - generic [ref=e970]: R
+                - generic [ref=e971]: I
+                - generic [ref=e972]: C
+                - generic [ref=e973]: I
+                - generic [ref=e974]: "N"
+                - generic [ref=e975]: G
+            - paragraph [ref=e977]: From launch to scale, we’ve got you covered at every stage.
+          - generic [ref=e978]:
+            - paragraph [ref=e982] [cursor=pointer]: Monthly
+            - generic [ref=e983] [cursor=pointer]:
+              - paragraph [ref=e985]: Annual
+              - paragraph [ref=e987]: "-20%"
+        - generic [ref=e988]:
+          - generic [ref=e989]:
+            - generic [ref=e991]:
+              - generic [ref=e994]:
+                - heading "Starter" [level=3] [ref=e997]
+                - paragraph [ref=e999]: Perfect for solo founders and early stage brands.
+              - generic [ref=e1002]:
+                - generic [ref=e1003]:
+                  - paragraph [ref=e1005]: +
+                  - paragraph [ref=e1007]: 1 Senior designer
+                - generic [ref=e1008]:
+                  - paragraph [ref=e1010]: +
+                  - paragraph [ref=e1012]: 72 hours turn around time
+                - generic [ref=e1013]:
+                  - paragraph [ref=e1015]: +
+                  - paragraph [ref=e1017]: One request at a time
+                - generic [ref=e1018]:
+                  - paragraph [ref=e1020]: +
+                  - paragraph [ref=e1022]: Pause or cancel anytime
+                - generic [ref=e1023]:
+                  - paragraph [ref=e1025]: +
+                  - paragraph [ref=e1027]: Up to 40 hours per month
+                - generic [ref=e1028]:
+                  - paragraph [ref=e1030]: +
+                  - paragraph [ref=e1032]: Async comunication
+              - generic [ref=e1033]:
+                - generic [ref=e1034]:
+                  - paragraph [ref=e1037]: $
+                  - img "5999" [ref=e1040]:
+                    - generic [ref=e1043]:
+                      - generic [ref=e1044]: "5"
+                      - generic [ref=e1046]: "9"
+                      - generic [ref=e1048]: "9"
+                      - generic [ref=e1050]: "9"
+                - heading "/mo" [level=4] [ref=e1054]
+              - button [ref=e1056] [cursor=pointer]:
+                - link [ref=e1057]:
+                  - /url: https://cal.com
+                  - generic [ref=e1059]:
+                    - paragraph [ref=e1062]: BOOK THIS PACKAGE
+                    - paragraph [ref=e1065]: BOOK THIS PACKAGE
+            - generic [ref=e1067]:
+              - generic [ref=e1070]:
+                - generic [ref=e1071]:
+                  - heading "Growth" [level=3] [ref=e1073]
+                  - paragraph [ref=e1075]: (POPULAR)
+                - paragraph [ref=e1077]: Perfect for scaling businesses ready to go deeper.
+              - generic [ref=e1080]:
+                - generic [ref=e1081]:
+                  - paragraph [ref=e1083]: +
+                  - paragraph [ref=e1085]: 2 Senior designer
+                - generic [ref=e1086]:
+                  - paragraph [ref=e1088]: +
+                  - paragraph [ref=e1090]: 48 hours turn around time
+                - generic [ref=e1091]:
+                  - paragraph [ref=e1093]: +
+                  - paragraph [ref=e1095]: Two request at a time
+                - generic [ref=e1096]:
+                  - paragraph [ref=e1098]: +
+                  - paragraph [ref=e1100]: Pause or cancel anytime
+                - generic [ref=e1101]:
+                  - paragraph [ref=e1103]: +
+                  - paragraph [ref=e1105]: Up to 70 hours per month
+                - generic [ref=e1106]:
+                  - paragraph [ref=e1108]: +
+                  - paragraph [ref=e1110]: Async comunication
+              - generic [ref=e1111]:
+                - generic [ref=e1112]:
+                  - paragraph [ref=e1115]: $
+                  - img "8999" [ref=e1118]:
+                    - generic [ref=e1121]:
+                      - generic [ref=e1122]: "8"
+                      - generic [ref=e1124]: "9"
+                      - generic [ref=e1126]: "9"
+                      - generic [ref=e1128]: "9"
+                - heading "/mo" [level=4] [ref=e1132]
+              - button [ref=e1134] [cursor=pointer]:
+                - link [ref=e1135]:
+                  - /url: https://cal.com
+                  - generic [ref=e1137]:
+                    - paragraph [ref=e1140]: BOOK THIS PACKAGE
+                    - paragraph [ref=e1143]: BOOK THIS PACKAGE
+          - generic [ref=e1147]:
+            - generic [ref=e1148]:
+              - heading "Bespoke" [level=3] [ref=e1150]
+              - paragraph [ref=e1152]: Perfect for specialized needs or early-stage projects.
+            - button [ref=e1154] [cursor=pointer]:
+              - link [ref=e1155]:
+                - /url: https://cal.com
+                - generic [ref=e1157]:
+                  - paragraph [ref=e1160]: CONTACT US
+                  - paragraph [ref=e1163]: CONTACT US
+      - generic [ref=e1164]:
+        - img "a dark pattern" [ref=e1167]
+        - generic [ref=e1168]:
+          - generic [ref=e1169]:
+            - heading "F A Q" [level=2] [ref=e1171]:
+              - generic [ref=e1172]:
+                - generic [ref=e1173]: F
+                - generic [ref=e1174]: A
+                - generic [ref=e1175]: Q
+            - generic [ref=e1176]:
+              - paragraph [ref=e1178]: Got specific questions?
+              - paragraph [ref=e1180]:
+                - link "Contact Us" [ref=e1181] [cursor=pointer]:
+                  - /url: ./
+          - generic [ref=e1184]:
+            - generic [ref=e1186] [cursor=pointer]:
+              - heading "What’s your typical process for a new project?" [level=3] [ref=e1190]
+              - paragraph [ref=e1196]: We start with a discovery phase to understand your goals, audience, and competitors. From there, we move into strategy, design, and development—keeping you in the loop at every stage. Each service has its own milestones, but collaboration is constant throughout.
+            - generic [ref=e1198] [cursor=pointer]:
+              - heading "How long does a project usually take?" [level=3] [ref=e1202]
+              - paragraph [ref=e1208]: It depends on the scope. A simple website or branding project can take 2 to 3 weeks. Larger projects with multiple pages, motion, or strategy may take 4 to 6 weeks. We’ll always set a clear timeline before we begin.
+            - generic [ref=e1210] [cursor=pointer]:
+              - heading "Do you offer packages or custom quotes?" [level=3] [ref=e1214]
+              - paragraph [ref=e1220]: Both. We have a few starter packages to keep things simple, but we also offer custom quotes for projects with unique needs. Just tell us what you're planning — we’ll work around it.
+            - generic [ref=e1222] [cursor=pointer]:
+              - heading "What’s included in a branding package?" [level=3] [ref=e1226]
+              - paragraph [ref=e1232]: "Our branding package covers the essentials: logo design, color palette, font pairing, and a mini style guide. We can also include social templates or creative direction if needed."
+            - generic [ref=e1234] [cursor=pointer]:
+              - heading "Can you work with our existing dev or marketing team?" [level=3] [ref=e1238]
+              - paragraph [ref=e1244]: Yes, absolutely. We’re happy to collaborate with your team — whether it's development, content, or marketing. Clear communication and teamwork always lead to better results.
+      - generic [ref=e1246]:
+        - generic [ref=e1247]:
+          - generic [ref=e1248]:
+            - heading "L A T E S T I N S I G H T S" [level=2] [ref=e1250]:
+              - generic [ref=e1251]:
+                - generic [ref=e1252]: L
+                - generic [ref=e1253]: A
+                - generic [ref=e1254]: T
+                - generic [ref=e1255]: E
+                - generic [ref=e1256]: S
+                - generic [ref=e1257]: T
+              - generic [ref=e1258]:
+                - generic [ref=e1259]: I
+                - generic [ref=e1260]: "N"
+                - generic [ref=e1261]: S
+                - generic [ref=e1262]: I
+                - generic [ref=e1263]: G
+                - generic [ref=e1264]: H
+                - generic [ref=e1265]: T
+                - generic [ref=e1266]: S
+            - paragraph [ref=e1268]: (BLOG)
+          - button [ref=e1271] [cursor=pointer]:
+            - link [ref=e1272]:
+              - /url: ./blog
+              - generic [ref=e1274]:
+                - paragraph [ref=e1277]: SEE ALL
+                - paragraph [ref=e1281]: SEE ALL
+        - generic [ref=e1283]:
+          - link "Design Strategy Feb 4, 2025 Why Clarity Beats Creativity in Web Design" [ref=e1286] [cursor=pointer]:
+            - /url: ./blog/why-clarity-beats-creativity-in-web-design
+            - generic [ref=e1288]:
+              - paragraph [ref=e1297]: Design Strategy
+              - generic [ref=e1298]:
+                - paragraph [ref=e1300]: Feb 4, 2025
+                - heading "Why Clarity Beats Creativity in Web Design" [level=3] [ref=e1303]
+          - generic [ref=e1304]:
+            - link "Social Media Feb 4, 2025 Motion helps your website feel modern and clear. Here’s why it matters and how to use it without overdoing it. Why Motion Design Makes Your Website Feel Alive" [ref=e1306] [cursor=pointer]:
+              - /url: ./blog/why-motion-design-makes-your-website-feel-alive
+              - generic [ref=e1308]:
+                - paragraph [ref=e1316]: Social Media
+                - generic [ref=e1317]:
+                  - paragraph [ref=e1319]: Feb 4, 2025
+                  - generic [ref=e1320]:
+                    - paragraph [ref=e1322]: Motion helps your website feel modern and clear. Here’s why it matters and how to use it without overdoing it.
+                    - heading "Why Motion Design Makes Your Website Feel Alive" [level=4] [ref=e1324]
+            - link "Branding Feb 4, 2025 Not all Framer templates are the same. Here’s how to spot the ones worth using for your site or brand. What to Look for in a Premium Framer Template" [ref=e1326] [cursor=pointer]:
+              - /url: ./blog/what-to-look-for-in-a-premium-framer-template
+              - generic [ref=e1328]:
+                - paragraph [ref=e1336]: Branding
+                - generic [ref=e1337]:
+                  - paragraph [ref=e1339]: Feb 4, 2025
+                  - generic [ref=e1340]:
+                    - paragraph [ref=e1342]: Not all Framer templates are the same. Here’s how to spot the ones worth using for your site or brand.
+                    - heading "What to Look for in a Premium Framer Template" [level=4] [ref=e1344]
+      - generic [ref=e1348]:
+        - img "person hand in a dramatic lighting" [ref=e1353]
+        - generic [ref=e1354]:
+          - heading "L E T ’ S W O R K T O G E T H E R" [level=2] [ref=e1356]:
+            - generic [ref=e1357]:
+              - generic [ref=e1358]: L
+              - generic [ref=e1359]: E
+              - generic [ref=e1360]: T
+              - generic [ref=e1361]: ’
+              - generic [ref=e1362]: S
+            - generic [ref=e1363]:
+              - generic [ref=e1364]: W
+              - generic [ref=e1365]: O
+              - generic [ref=e1366]: R
+              - generic [ref=e1367]: K
+            - generic [ref=e1368]:
+              - generic [ref=e1369]: T
+              - generic [ref=e1370]: O
+              - generic [ref=e1371]: G
+              - generic [ref=e1372]: E
+              - generic [ref=e1373]: T
+              - generic [ref=e1374]: H
+              - generic [ref=e1375]: E
+              - generic [ref=e1376]: R
+          - generic [ref=e1377]:
+            - paragraph [ref=e1379]:
+              - generic [ref=e1380]:
+                - generic [ref=e1381]: H
+                - generic [ref=e1382]: a
+                - generic [ref=e1383]: v
+                - generic [ref=e1384]: e
+              - generic [ref=e1385]: a
+              - generic [ref=e1387]:
+                - generic [ref=e1388]: p
+                - generic [ref=e1389]: r
+                - generic [ref=e1390]: o
+                - generic [ref=e1391]: j
+                - generic [ref=e1392]: e
+                - generic [ref=e1393]: c
+                - generic [ref=e1394]: t
+              - generic [ref=e1395]:
+                - generic [ref=e1396]: i
+                - generic [ref=e1397]: "n"
+              - generic [ref=e1398]:
+                - generic [ref=e1399]: m
+                - generic [ref=e1400]: i
+                - generic [ref=e1401]: "n"
+                - generic [ref=e1402]: d
+                - generic [ref=e1403]: "?"
+              - generic [ref=e1404]:
+                - generic [ref=e1405]: W
+                - generic [ref=e1406]: e
+                - generic [ref=e1407]: ’
+                - generic [ref=e1408]: d
+              - generic [ref=e1409]:
+                - generic [ref=e1410]: l
+                - generic [ref=e1411]: o
+                - generic [ref=e1412]: v
+                - generic [ref=e1413]: e
+              - generic [ref=e1414]:
+                - generic [ref=e1415]: t
+                - generic [ref=e1416]: o
+              - generic [ref=e1417]:
+                - generic [ref=e1418]: h
+                - generic [ref=e1419]: e
+                - generic [ref=e1420]: a
+                - generic [ref=e1421]: r
+              - generic [ref=e1422]:
+                - generic [ref=e1423]: a
+                - generic [ref=e1424]: b
+                - generic [ref=e1425]: o
+                - generic [ref=e1426]: u
+                - generic [ref=e1427]: t
+              - generic [ref=e1428]:
+                - generic [ref=e1429]: i
+                - generic [ref=e1430]: t
+                - generic [ref=e1431]: .
+              - generic [ref=e1432]:
+                - generic [ref=e1433]: L
+                - generic [ref=e1434]: e
+                - generic [ref=e1435]: t
+                - generic [ref=e1436]: ’
+                - generic [ref=e1437]: s
+              - generic [ref=e1438]:
+                - generic [ref=e1439]: c
+                - generic [ref=e1440]: r
+                - generic [ref=e1441]: e
+                - generic [ref=e1442]: a
+                - generic [ref=e1443]: t
+                - generic [ref=e1444]: e
+              - generic [ref=e1445]:
+                - generic [ref=e1446]: s
+                - generic [ref=e1447]: o
+                - generic [ref=e1448]: m
+                - generic [ref=e1449]: e
+                - generic [ref=e1450]: t
+                - generic [ref=e1451]: h
+                - generic [ref=e1452]: i
+                - generic [ref=e1453]: "n"
+                - generic [ref=e1454]: g
+              - generic [ref=e1455]:
+                - generic [ref=e1456]: g
+                - generic [ref=e1457]: r
+                - generic [ref=e1458]: e
+                - generic [ref=e1459]: a
+                - generic [ref=e1460]: t
+              - generic [ref=e1461]:
+                - generic [ref=e1462]: t
+                - generic [ref=e1463]: o
+                - generic [ref=e1464]: g
+                - generic [ref=e1465]: e
+                - generic [ref=e1466]: t
+                - generic [ref=e1467]: h
+                - generic [ref=e1468]: e
+                - generic [ref=e1469]: r
+                - generic [ref=e1470]: "!"
+            - button [ref=e1472] [cursor=pointer]:
+              - link [ref=e1473]:
+                - /url: ./contact
+                - generic [ref=e1475]:
+                  - heading "GET IN TOUCH" [level=4] [ref=e1478]
+                  - heading "GET IN TOUCH" [level=4] [ref=e1481]
+    - navigation [ref=e1485]:
+      - link [ref=e1488] [cursor=pointer]:
+        - /url: ./
+      - generic [ref=e1490]:
+        - generic [ref=e1492]:
+          - generic [ref=e1499]:
+            - paragraph [ref=e1501]: Available for project
+            - paragraph [ref=e1503]: EARLY FEB 2025
+          - generic [ref=e1504]:
+            - generic [ref=e1505]: 2:49 PM
+            - paragraph [ref=e1508]: (GMT+7)
+        - generic [ref=e1509]:
+          - button [ref=e1511] [cursor=pointer]:
+            - link [ref=e1512]:
+              - /url: ./contact
+              - generic [ref=e1514]:
+                - paragraph [ref=e1517]: LET'S TALK
+                - paragraph [ref=e1520]: LET'S TALK
+          - generic [ref=e1522] [cursor=pointer]
+    - contentinfo [ref=e1528]:
+      - generic [ref=e1530]:
+        - generic [ref=e1531]:
+          - generic [ref=e1532]:
+            - generic [ref=e1533]:
+              - paragraph [ref=e1535]: (email)
+              - heading [level=3] [ref=e1537]:
+                - link "hello@nakula.com" [ref=e1538] [cursor=pointer]:
+                  - /url: mailto:hello@nakula.com
+            - generic [ref=e1539]:
+              - paragraph [ref=e1541]: (phone)
+              - heading [level=4] [ref=e1543]:
+                - link "+12 345678" [ref=e1544] [cursor=pointer]:
+                  - /url: tel:+12345678
+          - generic [ref=e1545]:
+            - generic [ref=e1546]:
+              - generic [ref=e1547]:
+                - paragraph [ref=e1549]: (LINKS)
+                - generic [ref=e1550]:
+                  - link [ref=e1553] [cursor=pointer]:
+                    - /url: ./
+                    - paragraph [ref=e1555]: Home
+                  - link [ref=e1560] [cursor=pointer]:
+                    - /url: ./about
+                    - paragraph [ref=e1562]: About
+                  - link [ref=e1567] [cursor=pointer]:
+                    - /url: ./works
+                    - paragraph [ref=e1569]: Works
+                  - link [ref=e1574] [cursor=pointer]:
+                    - /url: ./contact
+                    - paragraph [ref=e1576]: Contact
+                  - link [ref=e1581] [cursor=pointer]:
+                    - /url: ./blog
+                    - paragraph [ref=e1583]: Blog
+                  - link [ref=e1588] [cursor=pointer]:
+                    - /url: ./404
+                    - paragraph [ref=e1590]: "404"
+                  - link [ref=e1595] [cursor=pointer]:
+                    - /url: ./waitlist
+                    - paragraph [ref=e1597]: Waitlist
+              - generic [ref=e1600]:
+                - paragraph [ref=e1602]: (SOCIALS)
+                - generic [ref=e1603]:
+                  - link [ref=e1606] [cursor=pointer]:
+                    - /url: https://x.com/VeloxThemes
+                    - paragraph [ref=e1608]: X/Twitter
+                  - link [ref=e1614] [cursor=pointer]:
+                    - /url: https://instagram.com
+                    - paragraph [ref=e1616]: Instagram
+                  - link [ref=e1622] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/velox-themes/
+                    - paragraph [ref=e1624]: LinkedIn
+                  - link [ref=e1630] [cursor=pointer]:
+                    - /url: https://www.behance.net/veloxthemes
+                    - paragraph [ref=e1632]: Behance
+            - generic [ref=e1636]:
+              - paragraph [ref=e1638]: Sign up for our newsletter to get latest insights and updates
+              - generic [ref=e1639]:
+                - generic [ref=e1642]:
+                  - textbox "Enter email address" [ref=e1645]:
+                    - /placeholder: ""
+                  - generic:
+                    - paragraph: Enter email address
+                - button [ref=e1649] [cursor=pointer]:
+                  - generic [ref=e1652]:
+                    - paragraph [ref=e1655]: SUBSCRIBE
+                    - paragraph [ref=e1658]: SUBSCRIBE
+        - generic [ref=e1659]:
+          - generic [ref=e1660]:
+            - paragraph [ref=e1662]: "@2025 NAKULA. All Rights Reserved"
+            - generic [ref=e1663]:
+              - paragraph [ref=e1665]:
+                - link "Privacy Policy" [ref=e1666] [cursor=pointer]:
+                  - /url: ./legal/privacy-policy
+              - paragraph [ref=e1669]:
+                - link "Terms of Service" [ref=e1670] [cursor=pointer]:
+                  - /url: ./legal/terms-of-service
+          - generic [ref=e1671]:
+            - paragraph [ref=e1673]: MADE BY
+            - link [ref=e1674] [cursor=pointer]:
+              - /url: https://veloxthemes.com
+      - generic [ref=e1680]:
+        - generic [ref=e1683] [cursor=pointer]
+        - heading "Beyond Visuals. Built with Vision." [level=3] [ref=e1687]
+    - generic [ref=e1689]:
+      - link "Buy Template Buy Template" [ref=e1691] [cursor=pointer]:
+        - /url: https://buy.polar.sh/polar_cl_AuIgr1tW4XyJByZT4T4iGq2vfReVewFJlXe0h0mmB00?utm_medium=buy-button
+        - generic:
+          - generic:
+            - paragraph: Buy Template
+        - generic:
+          - generic:
+            - paragraph: Buy Template
+      - link "More Templates More Templates" [ref=e1693] [cursor=pointer]:
+        - /url: https://veloxthemes.com/framer-templates?ref=preview
+        - generic:
+          - generic:
+            - paragraph: More Templates
+        - generic:
+          - generic:
+            - paragraph: More Templates
+  - generic:
+    - link "Create a free website with Framer, the website builder loved by startups, designers and agencies.":
+      - /url: https://www.framer.com
+      - paragraph [ref=e1694] [cursor=pointer]: Create a free website with Framer, the website builder loved by startups, designers and agencies.

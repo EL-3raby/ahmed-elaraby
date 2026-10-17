@@ -1,0 +1,270 @@
+- generic [active] [ref=f8e1]:
+  - generic "Curtain Transition" [ref=f8e2]: ELARABY
+  - banner [ref=f8e5]:
+    - button "ELARABY ®" [ref=f8e6] [cursor=pointer]:
+      - generic [ref=f8e7]: ELARABY
+      - generic [ref=f8e8]: ®
+    - generic [ref=f8e9]:
+      - button "LET'S TALK" [ref=f8e10] [cursor=pointer]
+      - button "Open mobile menu" [ref=f8e11] [cursor=pointer]
+  - main [ref=f8e12]:
+    - generic [ref=f8e13]:
+      - heading "Engineering h i g h - t i c k e t w e b a p p s with sub-second speed & bulletproof scale." [level=1] [ref=f8e16]:
+        - generic [ref=f8e17]: Engineering
+        - generic [ref=f8e23]:
+          - generic [ref=f8e24]:
+            - generic [ref=f8e25]: h
+            - generic [ref=f8e26]: i
+            - generic [ref=f8e27]: g
+            - generic [ref=f8e28]: h
+            - generic [ref=f8e29]: "-"
+            - generic [ref=f8e30]: t
+            - generic [ref=f8e31]: i
+            - generic [ref=f8e32]: c
+            - generic [ref=f8e33]: k
+            - generic [ref=f8e34]: e
+            - generic [ref=f8e35]: t
+          - generic [ref=f8e37]:
+            - generic [ref=f8e38]: w
+            - generic [ref=f8e39]: e
+            - generic [ref=f8e40]: b
+          - generic [ref=f8e42]:
+            - generic [ref=f8e43]: a
+            - generic [ref=f8e44]: p
+            - generic [ref=f8e45]: p
+            - generic [ref=f8e46]: s
+        - generic [ref=f8e49]:
+          - generic [ref=f8e50]: with
+          - generic [ref=f8e51]: sub-second
+          - generic [ref=f8e52]: speed
+        - generic [ref=f8e54]:
+          - generic [ref=f8e55]: "&"
+          - generic [ref=f8e56]: bulletproof
+          - generic [ref=f8e57]: scale.
+      - generic [ref=f8e60]:
+        - generic [ref=f8e61]: (ABOUT)
+        - paragraph [ref=f8e64]:
+          - generic [ref=f8e65]: I
+          - generic [ref=f8e66]: engineer
+          - generic [ref=f8e67]: complete
+          - generic [ref=f8e68]: full-stack
+          - generic [ref=f8e69]: web
+          - generic [ref=f8e70]: platforms
+          - generic [ref=f8e71]: from
+          - generic [ref=f8e72]: database
+          - generic [ref=f8e73]: architecture
+          - generic [ref=f8e74]: to
+          - generic [ref=f8e75]: 60fps
+          - generic [ref=f8e76]: interactive
+          - generic [ref=f8e77]: UI
+          - generic [ref=f8e78]: with
+          - generic [ref=f8e79]: single-developer
+          - generic [ref=f8e80]: velocity.
+      - generic [ref=f8e82]:
+        - generic [ref=f8e83]:
+          - heading "LATEST WORK." [level=2] [ref=f8e86]
+          - generic [ref=f8e87]:
+            - generic:
+              - generic:
+                - generic: "01."
+                - generic [ref=f8e88]:
+                  - button "— CENTR" [ref=f8e89] [cursor=pointer]:
+                    - generic [ref=f8e90]: —
+                    - generic [ref=f8e91]: CENTR
+                  - button "- XPower Nutrition" [ref=f8e92] [cursor=pointer]:
+                    - generic [ref=f8e93]: "-"
+                    - generic [ref=f8e94]: XPower Nutrition
+                  - button "- NYX Clothing" [ref=f8e95] [cursor=pointer]:
+                    - generic [ref=f8e96]: "-"
+                    - generic [ref=f8e97]: NYX Clothing
+                  - button "- SyncPOS" [ref=f8e98] [cursor=pointer]:
+                    - generic [ref=f8e99]: "-"
+                    - generic [ref=f8e100]: SyncPOS
+              - generic [ref=f8e102]:
+                - heading "CENTR" [level=3] [ref=f8e103]
+                - paragraph [ref=f8e104]: Full-stack educational platform with interactive scratch-card voucher redemption, live class schedules, and center directories.
+            - region "Latest work" [ref=f8e105]:
+              - listbox "Latest work" [ref=f8e106]:
+                - generic:
+                  - option "CENTR — EdTech & Voucher Redemption Platform VIEW PROJECT" [selected]:
+                    - generic [ref=f8e107] [cursor=pointer]:
+                      - generic:
+                        - img "CENTR — EdTech & Voucher Redemption Platform"
+                        - generic: VIEW PROJECT
+                  - option "XPower Nutrition — 3D Sports Supplement Storefront VIEW PROJECT":
+                    - generic:
+                      - generic:
+                        - img "XPower Nutrition — 3D Sports Supplement Storefront"
+                        - generic: VIEW PROJECT
+                  - option "NYX Clothing — Streetwear & Fashion E-Commerce VIEW PROJECT":
+                    - generic:
+                      - generic:
+                        - img "NYX Clothing — Streetwear & Fashion E-Commerce"
+                        - generic: VIEW PROJECT
+                  - option "SyncPOS — Hybrid Cloud & SaaS Ecosystem VIEW PROJECT":
+                    - generic:
+                      - generic:
+                        - img "SyncPOS — Hybrid Cloud & SaaS Ecosystem"
+                        - generic: VIEW PROJECT
+          - button "MORE PROJECTS" [ref=f8e129] [cursor=pointer]
+        - generic [ref=f8e131]:
+          - heading "TECHNICAL MASTERY." [level=2] [ref=f8e134]
+          - generic [ref=f8e136]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading "Full-Stack & Cloud Architecture" [level=3]
+                    - generic:
+                      - generic:
+                        - generic [ref=f8e137] [cursor=pointer]: Next.js App Router
+                        - generic [ref=f8e140] [cursor=pointer]: TypeScript
+                        - generic [ref=f8e143] [cursor=pointer]: Tailwind CSS
+                        - generic [ref=f8e146] [cursor=pointer]: React 19
+                        - generic [ref=f8e149] [cursor=pointer]: Node.js Edge APIs
+                        - generic [ref=f8e152] [cursor=pointer]: REST & GraphQL
+                        - generic [ref=f8e155] [cursor=pointer]: PostgreSQL / SQLite
+                        - generic [ref=f8e158] [cursor=pointer]: Normalized Schema
+                        - generic [ref=f8e161] [cursor=pointer]: High-Conversion UI
+                        - generic [ref=f8e164] [cursor=pointer]: Sub-second Hydration
+                        - generic [ref=f8e167] [cursor=pointer]: Docker & CI/CD
+                    - generic:
+                      - generic: NEXT.JS · EDGE RUNTIME · CLOUD
+                      - generic: 2026 ARCHITECTURE
+                  - generic:
+                    - generic: "01"
+                    - generic: ENGINEERING
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading "Creative Motion & WebGL 3D" [level=3]
+                    - generic:
+                      - generic:
+                        - generic [ref=f8e170] [cursor=pointer]: Three.js
+                        - generic [ref=f8e173] [cursor=pointer]: WebGL Shaders
+                        - generic [ref=f8e176] [cursor=pointer]: GSAP ScrollTrigger
+                        - generic [ref=f8e179] [cursor=pointer]: Framer Motion
+                        - generic [ref=f8e182] [cursor=pointer]: Lenis Smooth Scroll
+                        - generic [ref=f8e185] [cursor=pointer]: HTML5 Canvas
+                        - generic [ref=f8e188] [cursor=pointer]: 3D Product Renders
+                        - generic [ref=f8e191] [cursor=pointer]: Awwwards Physics
+                        - generic [ref=f8e194] [cursor=pointer]: Verlet Simulation
+                        - generic [ref=f8e197] [cursor=pointer]: Kinetic Typography
+                        - generic [ref=f8e200] [cursor=pointer]: Split-Text Animations
+                    - generic:
+                      - generic: THREE.JS · WEBGL · SHADERS
+                      - generic: 60FPS HARDWARE ACCEL
+                  - generic:
+                    - generic: "02"
+                    - generic: CREATIVE
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading "Desktop ERP & Logic Systems" [level=3]
+                    - generic:
+                      - generic:
+                        - generic [ref=f8e203] [cursor=pointer]: Python PySide6
+                        - generic [ref=f8e206] [cursor=pointer]: C# WPF (MVVM)
+                        - generic [ref=f8e209] [cursor=pointer]: SQLite WAL Engine
+                        - generic [ref=f8e212] [cursor=pointer]: Real-Time Cloud Sync
+                        - generic [ref=f8e215] [cursor=pointer]: SWI-Prolog HTTP
+                        - generic [ref=f8e218] [cursor=pointer]: Scikit-Learn Regression
+                        - generic [ref=f8e221] [cursor=pointer]: Pandas ETL Pipeline
+                        - generic [ref=f8e224] [cursor=pointer]: Offline-First Architecture
+                        - generic [ref=f8e227] [cursor=pointer]: Encrypted Local Storage
+                        - generic [ref=f8e230] [cursor=pointer]: Automated DB Snapshots
+                        - generic [ref=f8e233] [cursor=pointer]: Anomaly Detection ML
+                    - generic:
+                      - generic: PYSIDE6 · C# WPF · PROLOG
+                      - generic: OFFLINE-FIRST WAL
+                  - generic:
+                    - generic: "03"
+                    - generic: ENTERPRISE
+      - generic [ref=f8e238]:
+        - generic [ref=f8e239]:
+          - generic:
+            - generic: HOW WE
+            - generic: (PROCESS)
+          - generic [ref=f8e240]: WORK
+        - generic [ref=f8e243]:
+          - generic [ref=f8e244]:
+            - heading "[01] Plan & Architecture" [level=4] [ref=f8e245]:
+              - generic [ref=f8e246]: "[01]"
+              - generic [ref=f8e247]: Plan & Architecture
+            - paragraph [ref=f8e248]: We analyze your project goals, design clean database structures, and build a solid technical foundation.
+          - generic [ref=f8e249]:
+            - heading "[02] Modern UI & Frontend" [level=4] [ref=f8e250]:
+              - generic [ref=f8e251]: "[02]"
+              - generic [ref=f8e252]: Modern UI & Frontend
+            - paragraph [ref=f8e253]: We build fast, responsive interfaces designed to give your users a smooth, engaging experience on every screen.
+          - generic [ref=f8e254]:
+            - heading "[03] Backend & API Integration" [level=4] [ref=f8e255]:
+              - generic [ref=f8e256]: "[03]"
+              - generic [ref=f8e257]: Backend & API Integration
+            - paragraph [ref=f8e258]: We develop secure server logic, connect fast APIs, and ensure your data flows smoothly and safely.
+          - generic [ref=f8e259]:
+            - heading "[04] Testing & Deployment" [level=4] [ref=f8e260]:
+              - generic [ref=f8e261]: "[04]"
+              - generic [ref=f8e262]: Testing & Deployment
+            - paragraph [ref=f8e263]: We test speed, security, and performance, then launch your project cleanly with zero downtime.
+      - generic [ref=f8e265]:
+        - generic [ref=f8e267]:
+          - generic [ref=f8e268]: LET'S WORK
+          - generic [ref=f8e270]: TOGETHER
+        - generic [ref=f8e273]:
+          - generic [ref=f8e274]: AHMEDELARABY
+          - generic [ref=f8e276]:
+            - heading "Ready to Bring Your Vision to Life?" [level=3] [ref=f8e277]
+            - link "Get in Touch" [ref=f8e279] [cursor=pointer]:
+              - /url: mailto:contact@ahmedelaraby.dev?subject=Project%20Inquiry%20-%20Ahmed%20Elaraby
+      - generic [ref=f8e281]:
+        - generic [ref=f8e283]:
+          - generic [ref=f8e284]:
+            - generic [ref=f8e285]:
+              - generic [ref=f8e286]: (EMAIL)
+              - link "contact@ahmedelaraby.dev" [ref=f8e287] [cursor=pointer]:
+                - /url: mailto:contact@ahmedelaraby.dev
+            - generic [ref=f8e288]:
+              - generic [ref=f8e289]: (PHONE)
+              - link "+20 105 015 0780" [ref=f8e290] [cursor=pointer]:
+                - /url: tel:01050150780
+          - generic [ref=f8e291]:
+            - generic [ref=f8e292]:
+              - paragraph [ref=f8e293]: (LINKS)
+              - generic [ref=f8e294]:
+                - link "Home" [ref=f8e295] [cursor=pointer]:
+                  - /url: "#hero"
+                - link "About" [ref=f8e299] [cursor=pointer]:
+                  - /url: "#about"
+                - link "Works" [ref=f8e303] [cursor=pointer]:
+                  - /url: "#works"
+                - link "Process" [ref=f8e307] [cursor=pointer]:
+                  - /url: "#process"
+                - link "Contact" [ref=f8e311] [cursor=pointer]:
+                  - /url: "#contact"
+            - generic [ref=f8e315]:
+              - paragraph [ref=f8e316]: (SOCIALS)
+              - generic [ref=f8e317]:
+                - link "GitHub" [ref=f8e318] [cursor=pointer]:
+                  - /url: https://github.com/AhmedElaraby
+                - link "LinkedIn" [ref=f8e325] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/ahmed-elaraby
+                - link "Twitter / X" [ref=f8e332] [cursor=pointer]:
+                  - /url: https://x.com
+                - link "Behance" [ref=f8e339] [cursor=pointer]:
+                  - /url: https://www.behance.net
+          - generic [ref=f8e346]:
+            - paragraph [ref=f8e348]: "@2026 AHMED ELARABY. ALL RIGHTS RESERVED"
+            - generic [ref=f8e349]:
+              - generic [ref=f8e350]: MADE BY
+              - generic [ref=f8e351]: AHMED ELARABY
+        - generic [ref=f8e353]:
+          - generic [ref=f8e354]:
+            - heading "ELARABY" [level=2] [ref=f8e355]
+            - generic [ref=f8e356]: ®
+          - heading "Build What Others Can't." [level=3] [ref=f8e358]: Build WhatOthersCan't.
