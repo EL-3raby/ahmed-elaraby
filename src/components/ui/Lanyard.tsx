@@ -4,6 +4,20 @@ import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import './Lanyard.css';
 
+// Suppress harmless DirectX/ANGLE shader compiler precision warnings (X4122) on Windows
+if (typeof window !== 'undefined') {
+  const origWarn = console.warn;
+  console.warn = (...args: any[]) => {
+    if (
+      typeof args[0] === 'string' &&
+      (args[0].includes('X4122') || (args[0].includes('THREE.WebGLProgram') && args[0].includes('warning')))
+    ) {
+      return;
+    }
+    origWarn.apply(console, args);
+  };
+}
+
 export interface LanyardProps {
   frontImage?: string;
   backImage?: string;

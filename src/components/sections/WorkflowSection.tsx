@@ -8,7 +8,7 @@ export function WorkflowSection() {
     <section
       id="process"
       data-theme="obsidian"
-      className="relative z-10 w-full bg-[#0B0B0C] text-[var(--fg)] transition-colors duration-500"
+      className="relative w-full bg-[#0B0B0C] text-[var(--fg)] transition-colors duration-500"
     >
       <Timeline />
     </section>

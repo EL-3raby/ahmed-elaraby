@@ -114,13 +114,13 @@ export function AboutSection() {
       pinnedTl.to({}, { duration: 0.3 });
 
       // Phase 2: Smooth exit parallax lift when continuing scroll DOWN towards Works
-      // (and smooth descent when scrolling UP from Works into About!)
+      // On mobile, keep opacity clean so user does not scroll through an empty black void
       if (gridWrapperRef.current) {
         pinnedTl.to(gridWrapperRef.current, {
-          yPercent: -22,
-          scale: 0.94,
-          opacity: 0.15,
-          filter: 'blur(10px)',
+          yPercent: isMobile ? -8 : -22,
+          scale: isMobile ? 0.98 : 0.94,
+          opacity: isMobile ? 0.85 : 0.15,
+          filter: isMobile ? 'blur(0px)' : 'blur(10px)',
           duration: 0.8,
           ease: 'power2.in',
         });
@@ -140,7 +140,7 @@ export function AboutSection() {
       {/* Pinned Viewport Stage - 100% Clean without any header lines or cues */}
       <div
         ref={pinContainerRef}
-        className="min-h-[85vh] sm:h-screen w-full flex items-center justify-center px-6 sm:px-12 md:px-16 lg:px-24 max-w-7xl mx-auto relative select-none py-12 sm:py-0"
+        className="min-h-[85vh] sm:h-screen w-full flex items-center justify-center px-5 sm:px-12 md:px-16 lg:px-24 max-w-7xl mx-auto relative select-none py-12 sm:py-0"
       >
         {/* Main 2-Column Editorial Grid (Pixel-Perfect match to reference Image 2) */}
         <div

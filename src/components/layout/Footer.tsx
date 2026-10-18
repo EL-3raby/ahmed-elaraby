@@ -164,7 +164,7 @@ export function Footer() {
           Exact Nakula .framer-11myxzf styles:
           Padding: 56px 24px 24px | Gap: 64px | Max-width: 1400px
       ========================================================================= */}
-      <div className="w-full bg-[#0A0A0A] text-[#F4F3EF] px-4 sm:px-6 md:px-8 lg:px-12 pt-14 pb-8 border-t border-[#1C1C1E]">
+      <div className="w-full bg-[#0A0A0A] text-[#F4F3EF] px-5 sm:px-6 md:px-8 lg:px-12 pt-8 sm:pt-14 pb-8 border-t border-[#1C1C1E]">
         <div className="max-w-[1400px] mx-auto w-full flex flex-col gap-16">
           
           {/* TOP CONTACT ROW: (EMAIL) & (PHONE) */}

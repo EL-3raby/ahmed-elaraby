@@ -21,25 +21,29 @@ export function ContactSection() {
     if (!section) return;
 
     const ctx = gsap.context(() => {
-      // 1. Subtle entrance of the whole section
-      gsap.fromTo(
-        section,
-        {
-          y: 30,
-          opacity: 0.3,
-        },
-        {
-          y: 0,
-          opacity: 1,
-          ease: 'power3.out',
-          scrollTrigger: {
-            trigger: section,
-            start: 'top 98%',
-            end: 'top 80%',
-            scrub: 0.2,
+      const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+
+      // 1. Subtle entrance of the whole section (desktop only to prevent mobile dark gap)
+      if (!isMobile) {
+        gsap.fromTo(
+          section,
+          {
+            y: 30,
+            opacity: 0.3,
           },
-        }
-      );
+          {
+            y: 0,
+            opacity: 1,
+            ease: 'power3.out',
+            scrollTrigger: {
+              trigger: section,
+              start: 'top 98%',
+              end: 'top 80%',
+              scrub: 0.2,
+            },
+          }
+        );
+      }
 
       // 2. Monumental Stacked Headline: Line-by-line 3D vertical lift from masked bottom
       const lines = [line1Ref.current, line2Ref.current].filter(Boolean);
@@ -47,10 +51,10 @@ export function ContactSection() {
         gsap.fromTo(
           lines,
           {
-            yPercent: 115,
-            rotateX: 25,
-            opacity: 0,
-            filter: 'blur(10px)',
+            yPercent: isMobile ? 0 : 115,
+            rotateX: isMobile ? 0 : 25,
+            opacity: isMobile ? 1 : 0,
+            filter: 'blur(0px)',
             transformOrigin: '0% 100%',
           },
           {
@@ -58,12 +62,12 @@ export function ContactSection() {
             rotateX: 0,
             opacity: 1,
             filter: 'blur(0px)',
-            duration: 1.15,
-            stagger: 0.15,
+            duration: isMobile ? 0.5 : 1.15,
+            stagger: 0.12,
             ease: 'power4.out',
             scrollTrigger: {
               trigger: headlineRef.current,
-              start: 'top 85%',
+              start: isMobile ? 'top 98%' : 'top 85%',
               toggleActions: 'play none none reverse',
             },
           }
@@ -76,10 +80,10 @@ export function ContactSection() {
         gsap.fromTo(
           card,
           {
-            y: 280,
-            opacity: 0,
-            scale: 0.88,
-            rotateX: 10,
+            y: isMobile ? 50 : 280,
+            opacity: isMobile ? 0.6 : 0,
+            scale: isMobile ? 0.96 : 0.88,
+            rotateX: isMobile ? 0 : 10,
             transformOrigin: '50% 100%',
           },
           {
@@ -90,8 +94,8 @@ export function ContactSection() {
             ease: 'power2.out',
             scrollTrigger: {
               trigger: card,
-              start: 'top 96%',
-              end: 'top 52%',
+              start: isMobile ? 'top 95%' : 'top 96%',
+              end: isMobile ? 'top 65%' : 'top 52%',
               scrub: 0.8,
             },
           }
@@ -155,12 +159,12 @@ export function ContactSection() {
       ref={sectionRef}
       id="contact"
       data-theme="obsidian"
-      className="min-h-screen w-full px-4 sm:px-8 lg:px-12 pt-20 sm:pt-28 pb-12 sm:pb-16 relative bg-[#0B0B0C] text-[#F4F3EF] transition-colors duration-500 overflow-hidden select-none"
+      className="min-h-0 sm:min-h-screen w-full px-5 sm:px-8 lg:px-12 pt-12 sm:pt-28 pb-8 sm:pb-16 relative bg-[#0B0B0C] text-[#F4F3EF] transition-colors duration-500 overflow-hidden select-none"
     >
       <div className="max-w-7xl mx-auto [perspective:1200px]">
 
         {/* 1. MONUMENTAL HEADLINE (Image 1 Style) */}
-        <div ref={headlineRef} className="py-8 sm:py-12 select-none overflow-hidden [perspective:1000px]">
+        <div ref={headlineRef} className="pt-2 pb-6 sm:py-12 select-none overflow-hidden [perspective:1000px]">
           <div
             className="flex flex-col gap-3 sm:gap-5 md:gap-7 lg:gap-9 font-anton uppercase tracking-[-0.02em] text-[#D8D8D8] text-5xl sm:text-7xl md:text-9xl lg:text-[11rem] xl:text-[13rem] leading-[0.9] transition-colors duration-300"
             style={{ fontFamily: 'var(--font-anton), Impact, sans-serif' }}

@@ -226,21 +226,15 @@ export default function Timeline({
         gsap.set(journeyLine, { width: reducedMotion ? "100%" : "0%" });
       }
 
-      // Subtle entrance reveal as user scrolls from Selected Works into HOW WE WORK
+      // Seamless transition as user scrolls from Selected Works into HOW WE WORK with zero black flash or separator
       if (!reducedMotion) {
         gsap.fromTo(
           slider,
           {
-            opacity: 0.15,
-            y: 45,
-            scale: 0.98,
-            filter: "blur(8px)",
+            y: 30,
           },
           {
-            opacity: 1,
             y: 0,
-            scale: 1,
-            filter: "blur(0px)",
             ease: "power2.out",
             scrollTrigger: {
               trigger: container,
@@ -253,14 +247,14 @@ export default function Timeline({
       }
 
       // Single pinned GSAP timeline that reliably controls the horizontal track and unpins at the end
+      const isMobile = typeof window !== "undefined" && window.innerWidth < 1024;
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: container,
           start: "top top",
           end: () => {
-            const isMobile = typeof window !== "undefined" && window.innerWidth < 1024;
             return isMobile
-              ? `+=${Math.max(650, Math.round(getScrollDistance() * 0.75))}`
+              ? `+=${Math.max(550, Math.round(getScrollDistance() * 0.65))}`
               : `+=${Math.max(1600, Math.round(getScrollDistance() * 1.15))}`;
           },
           pin: true,
@@ -321,22 +315,25 @@ export default function Timeline({
         tl.to(`.description-step-04`, { y: 0, opacity: 1, duration: 0.6, ease: "power2.out" }, 8.2);
 
         // 4. Brief reading hold on milestone 04
-        tl.to({}, { duration: 0.5 }, 8.4);
+        tl.to({}, { duration: isMobile ? 0.2 : 0.5 }, 8.4);
 
-        // 5. Swift 3D recede & instant fade out
-        tl.to(
-          slider,
-          {
-            scale: 0.88,
-            y: -40,
-            opacity: 0,
-            filter: "blur(14px)",
-            transformOrigin: "50% 35%",
-            duration: 1.1,
-            ease: "power2.inOut",
-          },
-          8.9
-        );
+        // 5. Swift 3D recede & instant fade out (desktop only)
+        // On mobile, keep slider visible so the user does NOT scroll through an empty black void into Contact
+        if (!isMobile) {
+          tl.to(
+            slider,
+            {
+              scale: 0.88,
+              y: -40,
+              opacity: 0,
+              filter: "blur(14px)",
+              transformOrigin: "50% 35%",
+              duration: 1.1,
+              ease: "power2.inOut",
+            },
+            8.9
+          );
+        }
       }
     }, container);
 
@@ -347,13 +344,13 @@ export default function Timeline({
     <div
       ref={containerRef}
       id="process-pipeline"
-      className="relative w-full h-screen h-[100dvh] max-h-screen overflow-hidden flex items-center select-none"
+      className="relative w-full h-screen h-[100dvh] max-h-screen overflow-hidden flex items-center select-none bg-[#0B0B0C]"
       style={sectionStyle}
     >
       {/* Unified Kinetic Slider - HOW WE WORK is anchored directly to the line at letter 'K' and slides off-screen to the left on scroll */}
       <div
         ref={wholeSliderRef}
-        className="flex items-center w-max will-change-transform pl-6 sm:pl-12 lg:pl-20 pr-32 sm:pr-48 lg:pr-60"
+        className="flex items-center w-max will-change-transform pl-5 sm:pl-12 lg:pl-20 pr-32 sm:pr-48 lg:pr-60"
       >
         {/* Leading Typography: HOW WE WORK (Line starts directly at the letter 'K') */}
         <div className="relative shrink-0 select-none flex items-center">
@@ -401,7 +398,7 @@ export default function Timeline({
           </div>
 
           {/* Milestones Sequenced with Stems Touching the Big Line */}
-          <div className="flex items-center gap-36 sm:gap-72 lg:gap-96 pl-10 sm:pl-28 lg:pl-36">
+          <div className="flex items-center gap-36 sm:gap-72 lg:gap-96 pl-52 sm:pl-28 lg:pl-36">
               {items.map((item) => (
                 <div
                   key={item.id}

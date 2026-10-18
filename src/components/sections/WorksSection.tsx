@@ -211,6 +211,8 @@ export function WorksSection() {
     gsap.registerPlugin(ScrollTrigger);
 
     const ctx = gsap.context(() => {
+      const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+
       // 1. Cinematic 3D Perspective Lift & Focus Entrance as Section 2 ascends over Hero
       if (stageContentRef.current) {
         gsap.fromTo(
@@ -241,16 +243,15 @@ export function WorksSection() {
       }
 
       // 2. Entrance reveal for the monumental title as section enters viewport
-      // 2. Entrance reveal for the monumental left-aligned title as section enters viewport
       if (titleRef.current) {
         gsap.fromTo(
           titleRef.current,
           {
-            x: -60,
-            yPercent: 100,
-            rotateZ: -2,
-            opacity: 0,
-            filter: 'blur(12px)',
+            x: isMobile ? 0 : -60,
+            yPercent: isMobile ? 0 : 100,
+            rotateZ: 0,
+            opacity: isMobile ? 1 : 0,
+            filter: 'blur(0px)',
           },
           {
             x: 0,
@@ -258,11 +259,11 @@ export function WorksSection() {
             rotateZ: 0,
             opacity: 1,
             filter: 'blur(0px)',
-            duration: 1.1,
+            duration: 0.8,
             ease: 'power4.out',
             scrollTrigger: {
               trigger: sectionRef.current,
-              start: 'top 80%',
+              start: isMobile ? 'top 95%' : 'top 80%',
               toggleActions: 'play none none reverse',
             },
           }
@@ -274,9 +275,9 @@ export function WorksSection() {
         gsap.fromTo(
           leftPanelRef.current,
           {
-            x: -45,
-            opacity: 0,
-            filter: 'blur(10px)',
+            x: isMobile ? 0 : -45,
+            opacity: isMobile ? 1 : 0,
+            filter: 'blur(0px)',
           },
           {
             x: 0,
@@ -285,7 +286,7 @@ export function WorksSection() {
             ease: 'power2.out',
             scrollTrigger: {
               trigger: sectionRef.current,
-              start: 'top 80%',
+              start: isMobile ? 'top 95%' : 'top 80%',
               end: 'top 20%',
               scrub: 0.5,
             },
@@ -296,24 +297,22 @@ export function WorksSection() {
       // 4. Pinned timeline: First scroll reveals Card 01 under the title, then turns through all cards
       const turnProxy = { val: 1 };
 
-      const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
-
       const pinnedTl = gsap.timeline({
         scrollTrigger: {
           trigger: sectionRef.current,
           start: 'top top',
-          end: isMobile ? '+=1800' : '+=5800',
+          end: isMobile ? '+=1050' : '+=5800',
           pin: pinContainerRef.current,
           anticipatePin: 1,
           scrub: 0.4,
         },
       });
 
-      // Initially hide the cards stage until user scrolls a bit
+      // Initially hide the cards stage until user scrolls a bit (desktop entrance only)
       gsap.set(wheelStageRef.current, {
-        opacity: 0,
-        y: 60,
-        scale: 0.94,
+        opacity: isMobile ? 1 : 0,
+        y: isMobile ? 0 : 60,
+        scale: isMobile ? 1 : 0.94,
       });
 
       // Initially hide the MORE PROJECTS button until last card is reached
@@ -363,14 +362,16 @@ export function WorksSection() {
         });
       }
 
-      // Phase 1: Scroll a bit to smoothly reveal the first card under Latest work
-      pinnedTl.to(wheelStageRef.current, {
-        opacity: 1,
-        y: 0,
-        scale: 1,
-        duration: 1.2,
-        ease: 'power2.out',
-      });
+      // Phase 1: Scroll a bit to smoothly reveal the first card under Latest work (on desktop)
+      if (!isMobile) {
+        pinnedTl.to(wheelStageRef.current, {
+          opacity: 1,
+          y: 0,
+          scale: 1,
+          duration: 1.2,
+          ease: 'power2.out',
+        });
+      }
 
       // Phase 2: Continue scrolling to cycle through all 4 flagship production builds
       pinnedTl.to(turnProxy, {
@@ -409,9 +410,6 @@ export function WorksSection() {
           stageContentRef.current,
           {
             xPercent: -35,
-            scale: 0.94,
-            opacity: 0.25,
-            filter: 'blur(10px)',
             duration: 2.0,
             ease: 'power2.inOut',
           },
@@ -497,7 +495,7 @@ export function WorksSection() {
         );
 
         // Hold on Card 03 (Desktop ERP & Logic Systems) before unpinning
-        pinnedTl.to({}, { duration: 0.9 });
+        pinnedTl.to({}, { duration: isMobile ? 0.15 : 0.9 });
       }
 
       scrollTriggerRef.current = pinnedTl.scrollTrigger || null;
@@ -524,7 +522,7 @@ export function WorksSection() {
       {/* Pinned Viewport Container */}
       <div
         ref={pinContainerRef}
-        className="h-screen w-full flex flex-col justify-between pt-16 sm:pt-12 pb-5 px-4 sm:px-8 lg:px-12 overflow-hidden relative"
+        className="h-screen w-full flex flex-col justify-between pt-16 sm:pt-12 pb-5 px-5 sm:px-8 lg:px-12 overflow-hidden relative"
       >
 
         {/* Inner Stage Wrapper with 3D Perspective Lift Entrance */}
@@ -637,10 +635,10 @@ export function WorksSection() {
         {/* Lateral Transition Stage: Pinned Sequential Scroll for Technical Arsenal (01 -> 02 -> 03) */}
         <div
           ref={transitionPanelRef}
-          className="absolute inset-0 z-30 w-full h-full bg-[#0B0B0C] shadow-[-30px_0_60px_rgba(0,0,0,0.85)] flex flex-col justify-between pt-16 sm:pt-12 pb-5 px-4 sm:px-8 lg:px-12 will-change-transform overflow-hidden"
+          className="absolute inset-0 z-30 w-full h-full bg-[#0B0B0C] flex flex-col justify-between pt-16 sm:pt-12 pb-5 px-5 sm:px-8 lg:px-12 will-change-transform overflow-hidden"
         >
           {/* Top Header - Exact match with HOW WE WORK font style */}
-          <div className="max-w-7xl mx-auto w-full flex items-center justify-start pb-2 shrink-0 z-20">
+          <div className="max-w-7xl mx-auto w-full flex items-center justify-start pb-2 shrink-0 z-20 pt-10 sm:pt-0">
             <div className="overflow-hidden py-2">
               <h2
                 className="font-anton uppercase tracking-[-0.01em] text-3xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-[#D1D1D1] leading-[0.88] select-none"
@@ -652,9 +650,9 @@ export function WorksSection() {
           </div>
 
           {/* Sequential Scroll Stage with 3 Stacked Cards */}
-          <div className="flex-1 w-full max-w-7xl mx-auto relative min-h-0 flex items-center justify-center">
+          <div className="flex-1 w-full max-w-7xl mx-auto relative min-h-0 flex items-center justify-center -mt-6 sm:mt-0">
             {/* Pinned Stage: 3 Stacked Admit-One Skill Tickets with GSAP Scrub Transition */}
-            <div className="relative w-full h-[375px] sm:h-[400px] flex items-center justify-center overflow-visible">
+            <div className="relative w-full h-[220px] sm:h-[400px] flex items-center justify-center overflow-visible">
               {/* Card 01: Web & SaaS Ticket */}
               <div
                 ref={card1Ref}
