@@ -138,7 +138,6 @@ export function HeroSection() {
     let isInitialized = false;
 
     const measureWords = () => {
-      if (typeof window !== 'undefined' && window.innerWidth < 1024) return;
       const elements = heroRef.current?.querySelectorAll<HTMLElement>('.scatter-word');
       if (!elements || elements.length === 0) return;
 
@@ -170,7 +169,6 @@ export function HeroSection() {
     let rafId: number;
     const tick = () => {
       rafId = requestAnimationFrame(tick);
-      if (typeof window !== 'undefined' && window.innerWidth < 1024) return;
 
       const card = typeof window !== 'undefined' ? (window as any).__LANYARD_CARD__ : null;
       const cardActive = !!card && performance.now() - card.time < 350;
@@ -316,7 +314,7 @@ export function HeroSection() {
       ref={heroRef}
       id="hero"
       data-theme="paper"
-      className="min-h-screen w-full flex flex-col justify-center pt-24 sm:pt-28 pb-16 sm:pb-20 relative bg-[var(--bg)] transition-colors duration-500 overflow-hidden"
+      className="min-h-screen min-h-[100dvh] w-full flex flex-col justify-center pt-16 sm:pt-28 pb-10 sm:pb-20 relative bg-[var(--bg)] transition-colors duration-500 overflow-hidden"
     >
 
       {/* Full-Section 3D Physics Lanyard Canvas (Active across entire hero on all devices) */}
@@ -324,15 +322,18 @@ export function HeroSection() {
         <HeroLanyard />
       </div>
 
-      {/* Main 2-Column Hero Grid */}
-      <div className="hero-content-wrapper max-w-7xl mx-auto w-full px-4 sm:px-8 py-6 sm:py-10 relative z-30 pointer-events-none grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center my-auto will-change-transform">
+      {/* Main 2-Column Hero Grid on Desktop / Staggered Flow on Mobile */}
+      <div className="hero-content-wrapper max-w-7xl mx-auto w-full px-5 sm:px-8 py-4 sm:py-10 relative z-30 pointer-events-none flex flex-col lg:grid lg:grid-cols-12 gap-5 lg:gap-12 items-center my-auto will-change-transform">
         
+        {/* On mobile: Upper spacer to reserve top-right area for the hanging card */}
+        <div className="w-full flex justify-end lg:hidden pointer-events-none min-h-[290px] sm:min-h-[330px]" />
+
         {/* Left Column (7 cols): Editorial Typography, Kinetic FlipWords & Badges */}
-        <div className="lg:col-span-7 flex flex-col justify-center relative z-30 select-none pointer-events-auto">
+        <div className="w-full lg:col-span-7 flex flex-col justify-center relative z-30 select-none pointer-events-auto">
           
 
           {/* Masked Line-by-Line Entrance Monumental Heading with Scatterable Words */}
-          <h1 className="font-display font-bold tracking-[-0.035em] leading-[0.98] text-[var(--fg)] text-[clamp(2.1rem,7vw,5.1rem)] [perspective:1200px]">
+          <h1 className="font-display font-bold tracking-[-0.035em] leading-[1.0] text-[var(--fg)] text-[clamp(2.05rem,6.8vw,5.1rem)] [perspective:1200px]">
             <span className="hero-line-mask block overflow-hidden py-0.5">
               <span className="hero-line-inner block will-change-transform opacity-0 [transform-style:preserve-3d]">
                 <span className="scatter-word inline-block will-change-transform">
@@ -370,8 +371,8 @@ export function HeroSection() {
 
         </div>
 
-        {/* Right Column (5 cols): Spatial Placeholder for 3D Lanyard */}
-        <div className="lg:col-span-5 w-full flex items-center justify-center relative z-10 pointer-events-none min-h-[380px] sm:min-h-[440px] lg:min-h-[500px]" />
+        {/* Right Column (5 cols): Spatial Placeholder for 3D Lanyard on desktop */}
+        <div className="hidden lg:flex lg:col-span-5 w-full items-center justify-center relative z-10 pointer-events-none min-h-[500px]" />
 
       </div>
     </section>

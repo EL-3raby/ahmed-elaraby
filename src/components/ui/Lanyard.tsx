@@ -1051,7 +1051,7 @@ export const Lanyard: React.FC<LanyardProps> = ({
       const aspect = view.width / view.height;
       let viewHeight = layout.height / clamp(s.size, 0.15, 0.9);
       const isMobileAspect = aspect < 0.8;
-      const minOccupancy = isMobileAspect ? Math.min(0.85, Math.max(0.72, s.size * 1.3)) : 0.72;
+      const minOccupancy = isMobileAspect ? 0.62 : 0.72;
       const minimumWidth = layout.width / minOccupancy;
       if (viewHeight * aspect < minimumWidth) viewHeight = minimumWidth / aspect;
       const viewWidth = viewHeight * aspect;
@@ -1066,8 +1066,8 @@ export const Lanyard: React.FC<LanyardProps> = ({
       const anchorRatio = typeof s.anchor === 'number' ? s.anchor : (ANCHORS[s.anchor as string] ?? 0.5);
       const anchorX = (anchorRatio - 0.5) * viewWidth;
       const anchorY = viewHeight / 2 + 0.2;
-      const maxDrop = isMobileAspect ? 0.78 : 0.42;
-      const cardTop = viewHeight / 2 - viewHeight * mix(0.12, maxDrop, clamp(s.strapLength, 0, 1));
+      const maxDrop = isMobileAspect ? 0.65 : 0.42;
+      const cardTop = viewHeight / 2 - viewHeight * mix(0.10, maxDrop, clamp(s.strapLength, 0, 1));
       const hangTop = cardTop + (layout.hangY - layout.height / 2);
       sim.anchor.set(anchorX, anchorY, 0);
       configureSimulation(sim, layout, anchorY - hangTop);

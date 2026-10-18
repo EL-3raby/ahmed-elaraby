@@ -21,14 +21,14 @@ export function HeroLanyard() {
         setCardSize(0.52);
         setStrapLength(0.22);
       } else if (w >= 640) {
-        setAnchor(0.5);
-        setCardSize(0.54);
-        setStrapLength(0.35);
+        setAnchor(0.68);
+        setCardSize(0.48);
+        setStrapLength(0.24);
       } else {
-        // On mobile: Prominent, large, visible card centered below headline
-        setAnchor(0.5);
-        setCardSize(0.52);
-        setStrapLength(0.64);
+        // On mobile: Positioned on the right side with proportional size
+        setAnchor(0.76);
+        setCardSize(0.33);
+        setStrapLength(0.08);
       }
     };
 

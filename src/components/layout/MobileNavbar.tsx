@@ -88,31 +88,31 @@ export function MobileNavbar() {
       {/* =========================================================================
           FIXED TOP BAR (Closed State) - Pixel-perfect match to Nakula Mobile
           ========================================================================= */}
-      <header className="fixed top-0 left-0 right-0 z-40 h-[64px] px-5 flex items-center justify-between bg-[#0A0A0A]/90 backdrop-blur-md border-b border-white/[0.08] transition-all">
+      <header className="fixed top-0 left-0 right-0 z-40 h-[64px] px-5 flex items-center justify-between bg-transparent border-0 transition-all pointer-events-none">
         {/* Left: Brand Logo (ELARABY ®) */}
         <button
           type="button"
           onClick={() => handleLinkClick('#hero')}
-          className="flex items-start select-none group cursor-pointer bg-transparent border-0 p-0 text-left"
+          className="flex items-start select-none group cursor-pointer bg-transparent border-0 p-0 text-left pointer-events-auto"
         >
           <span
-            className="font-anton uppercase tracking-[-0.02em] text-[#F4F3EF] text-2xl leading-none"
+            className="font-anton uppercase tracking-[-0.02em] text-[var(--fg)] text-2xl leading-none transition-colors duration-300"
             style={{ fontFamily: 'var(--font-anton), Impact, sans-serif' }}
           >
             ELARABY
           </span>
-          <span className="text-[#FF4925] font-sans font-bold text-xs ml-0.5 -mt-0.5 select-none">
+          <span className="text-[#FF4D00] font-sans font-bold text-xs ml-0.5 -mt-0.5 select-none">
             ®
           </span>
         </button>
 
         {/* Right: "LET'S TALK" Pill + Circular Hamburger Button */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 pointer-events-auto">
           {/* Pill Button */}
           <button
             type="button"
             onClick={() => handleLinkClick('#contact')}
-            className="px-3.5 py-1.5 rounded-full border border-white/20 bg-white/5 text-[11px] font-sans font-semibold uppercase tracking-wider text-[#F4F3EF] hover:bg-white hover:text-black active:scale-95 transition-all cursor-pointer"
+            className="px-3.5 py-1.5 rounded-full border border-[var(--border)] bg-[var(--card)] backdrop-blur-md text-[11px] font-sans font-semibold uppercase tracking-wider text-[var(--fg)] hover:bg-[var(--fg)] hover:text-[var(--bg)] active:scale-95 transition-all duration-300 cursor-pointer shadow-xs"
           >
             LET&apos;S TALK
           </button>
@@ -121,11 +121,11 @@ export function MobileNavbar() {
           <button
             type="button"
             onClick={() => setIsOpen(true)}
-            className="w-10 h-10 rounded-full border border-white/15 bg-[#141414] flex flex-col items-center justify-center gap-1.5 cursor-pointer hover:border-white/30 active:scale-90 transition-all"
+            className="w-10 h-10 rounded-full border border-[var(--border)] bg-[var(--card)] backdrop-blur-md flex flex-col items-center justify-center gap-1.5 cursor-pointer hover:border-[var(--fg)]/30 active:scale-90 transition-all duration-300 shadow-xs"
             aria-label="Open mobile menu"
           >
-            <span className="w-4 h-[1.5px] bg-white rounded-full block pointer-events-none" />
-            <span className="w-4 h-[1.5px] bg-white rounded-full block pointer-events-none" />
+            <span className="w-4 h-[1.5px] bg-[var(--fg)] rounded-full block pointer-events-none transition-colors duration-300" />
+            <span className="w-4 h-[1.5px] bg-[var(--fg)] rounded-full block pointer-events-none transition-colors duration-300" />
           </button>
         </div>
       </header>
